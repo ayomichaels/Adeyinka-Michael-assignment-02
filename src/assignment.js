@@ -21,7 +21,7 @@ function sumOfNumbers(current, value) {
 }
 
 const result = numbers.reduce(sumOfNumbers)
-assignment.sumOfNumbers = result 
+// assignment.sumOfNumbers = result 
 
 
 /**
@@ -38,7 +38,7 @@ function evenNumbers (number) {
     return number % 2 == 0;
 }
 const countEvenNumbers = numbers.filter(evenNumbers).length
-assignment.countEvenNumbers = evenCount;
+// assignment.countEvenNumbers = evenCount;
 
 /**
  * Challenge - 3
