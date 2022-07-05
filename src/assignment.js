@@ -20,7 +20,7 @@ const sumOfNumbers = (current, value) =>{
 }
 
 const result = numbers.reduce(sumOfNumbers)
-assignment.sumOfNumbers = sumOfNumbers
+assignment.sumOfNumbers = result
 
 
 /**
