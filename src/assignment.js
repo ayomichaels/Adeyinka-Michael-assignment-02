@@ -14,11 +14,11 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 const numbers = [1,2,3,4,5,6,7,8,9,10]
+
 const sumOfNumbers = (current, value) =>{
     return current + next;
 }
 
-assignment.sumOfNumbers = numbers.reduce(sumOfNumbers)
 
 
 /**
@@ -34,7 +34,7 @@ const evenNumbers = (number) => {
     return num % 2 == 0;
     // return arrayOfNumbers.length;
 }
-const countEvenNumber = numbers.filter(evenNumbers).length
+const countEvenNumbers = numbers.filter(evenNumbers).length
 
 /**
  * Challenge - 3
