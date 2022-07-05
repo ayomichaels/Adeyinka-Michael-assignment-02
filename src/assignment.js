@@ -36,7 +36,7 @@ const evenNumbers = (number) => {
     return number % 2 == 0;
 }
 const countEvenNumbers = numbers.filter(evenNumbers).length
-assignment.arrayOfNumbers = countEvenNumbers
+assignment.countEvenNumbers = countEvenNumbers
 
 /**
  * Challenge - 3
