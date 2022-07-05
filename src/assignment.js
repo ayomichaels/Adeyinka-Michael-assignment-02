@@ -15,7 +15,7 @@ const assignment = {};
  */
 const numbers = [1,2,3,4,5,6,7,8,9,10]
 
-const sumOfNumbers = (current, value) =>{
+function sumOfNumbers (current, value) {
     return current + value;
 }
 
@@ -32,7 +32,7 @@ assignment.sumOfNumbers = result
  * @param {Array} arrayOfNumbers the array containing even or non-even numbers
  * @returns number the count of even numbers
  */
-const evenNumbers = (number) => {
+function evenNumbers = (number) {
     return number % 2 == 0;
 }
 const countEvenNumbers = numbers.filter(evenNumbers).length
