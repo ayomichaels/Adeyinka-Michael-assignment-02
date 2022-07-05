@@ -16,8 +16,10 @@ const assignment = {};
 const numbers = [1,2,3,4,5,6,7,8,9,10]
 
 const sumOfNumbers = (current, value) =>{
-    return current + next;
+    return current + value;
 }
+
+const result = numbers.reduce(sumOfNumbers)
 assignment.sumOfNumbers = sumOfNumbers
 
 
