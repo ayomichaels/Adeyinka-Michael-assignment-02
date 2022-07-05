@@ -53,7 +53,6 @@ const countEvenNumbers = numbers.filter(evenNumbers).length
 function celsiusToFahrenheit(arrayOfNumbers) {
     return arrayOfNumbers;
 }
-// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
