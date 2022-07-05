@@ -31,7 +31,7 @@ const sumOfNumbers = (current, value) =>{
  * @returns number the count of even numbers
  */
 const evenNumbers = (number) => {
-    return num % 2 == 0;
+    return number % 2 == 0;
     // return arrayOfNumbers.length;
 }
 const countEvenNumbers = numbers.filter(evenNumbers).length
